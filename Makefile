@@ -1,6 +1,6 @@
 PROGRAM	= magicballs
 SOURCE = magicballs.c
-LIBS = -lncurses
+LIBS = -lncurses -lm
 CC = gcc
 
 all: magicballs
